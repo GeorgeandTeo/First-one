@@ -1,0 +1,8 @@
+PGraphics pg;
+PFont font;
+
+void setup() {
+  font = createFont("RobotoMono-Regular.ttf", 600);
+  size(800, 800, P2D);
+  pg = createGraphics(800, 800, P2D);
+}
